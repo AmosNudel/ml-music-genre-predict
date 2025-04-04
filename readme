@@ -1,0 +1,22 @@
+# Music Genre Prediction API
+
+A FastAPI application for predicting music genres based on user input (age and gender). It also stores user data for future ML training.
+
+## Features
+- **/predict**: Predicts a user's favorite music genre based on age and gender.
+- **/ml**: Stores user data (age and gender) in a database for future machine learning model training.
+
+## Prerequisites
+- Python 3.7+
+- FastAPI
+- SQLAlchemy
+- Joblib
+- Pandas
+- SQLite (for database)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd <project_directory>
